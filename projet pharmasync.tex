@@ -1,0 +1,187 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Cahier des Charges - Application de Gestion de Pharmacie}
+\author{saif eddine mahmoudi  benfadhel med amine}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Objectif de l'application :}
+L'objectif principal de l'application est de gérer le stock de médicaments d'une pharmacie de manière simple et efficace, en permettant une connexion directe avec le dépôt pour les approvisionnements en quantités limitées.
+
+\section{Description de l'application :}
+L'application sera développée en utilisant le langage Python et aura une base de données MySQL pour le stockage des données. Les informations sur les médicaments seront également exportables vers des feuilles Excel pour une analyse supplémentaire si nécessaire.
+
+\section{Exigences fonctionnelles :}
+\begin{itemize}
+    \item L'application permettra de surveiller le stock de médicaments et de gérer les commandes et les achats de nouveaux stocks.
+    \item Une connexion directe avec le dépôt permettra de passer des commandes pour les médicaments en quantités limitées.
+    \item Les utilisateurs pourront ajouter de nouveaux médicaments à la base de données et mettre à jour les prix existants.
+\end{itemize}
+
+\section{Exigences techniques :}
+\begin{itemize}
+    \item L'application sera une application de bureau développée en Python, avec une base de données MySQL pour le stockage des données.
+    \item Elle sera conçue pour fonctionner sur les systèmes d'exploitation Windows, Mac OS et Linux.
+\end{itemize}
+
+\section{Interfaces utilisateur :}
+\begin{itemize}
+    \item L'interface utilisateur sera conviviale et intuitive, permettant aux utilisateurs de naviguer facilement entre les différentes fonctionnalités de l'application.
+    \item Des tableaux de bord clairs afficheront les informations essentielles sur le stock de médicaments et les commandes en cours.
+\end{itemize}
+
+\section{Exigences de sécurité :}
+\begin{itemize}
+    \item Des mesures de sécurité robustes seront mises en place pour protéger les données sensibles des utilisateurs, notamment en matière d'authentification et d'autorisation.
+\end{itemize}
+
+\section{Échéancier et budget :}
+Le développement de l'application sera réalisé selon un calendrier défini, avec un budget alloué pour le projet.
+
+\section{Procédures de test et de validation :}
+\begin{itemize}
+    \item L'application sera soumise à des tests rigoureux pour s'assurer de son bon fonctionnement avant le déploiement.
+    \item Les tests seront réalisés avec la participation des utilisateurs dans des environnements de pharmacie réels.
+\end{itemize}
+
+\section{Maintenance et support :}
+\begin{itemize}
+    \item Une équipe sera désignée pour assurer la maintenance continue de l'application, y compris l'ajout de nouveaux médicaments et la mise à jour des prix.
+\end{itemize}
+
+\end{document}
+%% Basierend auf einer TeXnicCenter-Vorlage von Tino Weinkauf.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% HEADER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[addressstd,a4paper,10pt]{dinbrief}
+% Alternative Settings:
+%		a4paper / letter
+%   addressstd / addresshigh
+
+
+%% Deutsche Anpassungen %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+
+\usepackage{lmodern} %Type1-Schriftart für nicht-englische Texte
+
+
+%% Packages für Grafiken & Abbildungen %%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx} %%Zum Laden von Grafiken
+%\usepackage{subfig} %%Teilabbildungen in einer Abbildung
+%\usepackage{pst-all} %%PSTricks - nicht verwendbar mit pdfLaTeX
+
+%% Beachten Sie:
+%% Die Einbindung einer Grafik erfolgt mit \includegraphics{Dateiname}
+%% bzw. über den Dialog im Einfügen-Menü.
+%% 
+%% Im Modus "LaTeX => PDF" können Sie u.a. folgende Grafikformate verwenden:
+%%   .jpg  .png  .pdf  .mps
+%% 
+%% In den Modi "LaTeX => DVI", "LaTeX => PS" und "LaTeX => PS => PDF"
+%% können Sie u.a. folgende Grafikformate verwenden:
+%%   .eps  .ps  .bmp  .pict  .pntg
+
+
+%% Kommandos zur Anpassung %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\ccname}{\tt Verteiler}
+%%\renewcommand{\enclname}{\tt Anlage(n)}
+%\renewcommand{\psname}{PS}
+%\renewcommand{\phonemsg}{\tt Telefon}
+%\renewcommand{\signmsgold}{\tt Unsere Zeichen}
+%\renewcommand{\signmsgnew}{\tt Unsere Zeichen, unsere Nachricht vom}
+%\renewcommand{\yourmailmsg}{\tt Ihre Zeichen, Ihre Nachricht vom}
+
+
+%% Absenderaddresse %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\address{Vorname Nachname\\
+Straße Nr. 1\\
+11111 Stadt}
+
+\place{Stadt}
+\phone{030}{11111111}
+\signature{Vorname Nachname}
+
+%\nobackaddressrule
+\backaddress{Vorname Nachname, Straße Nr. 1, 11111 Stadt}
+
+
+%% Text am Ende des Briefes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bottomtext{%
+  \makebox[\textwidth][c]{\small\scshape
+   Bankverbindung $\cdot$ Web Adresse $\cdot$ Andere Informationen
+  }
+}
+
+
+%% Datum %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\date{\today} %%Wenn kommentiert, wird das aktuelle Datum verwendet
+
+
+%% Etiketten %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\labelstyle{plain} %%Art der Etiketten: nur plain möglich
+%\makelabels %%Generiert Etiketten
+
+
+%% Styles %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\nowindowrules %%Keinen Rahmen um die Empfängeraddresse
+%\nowindowtics %%Keine Faltkennzeichnungen
+\centeraddress %%Vertikale Zentrierung der Empfängeraddresse
+\pagestyle{empty} %%Keine Kopf- oder Fußzeilen
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DOCUMENT - BRIEF(E)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%% Beginn des Briefes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{letter}{Vorname Name\\
+               Straße Nr. 2\\[\medskipamount]
+               11111 Stadt}
+
+\yourmail{A} %%Ihre Zeichen
+\sign{B} %%Unsere Zeichen
+
+%\writer{} %%Name des Sachbearbeiters
+
+\subject{\bfseries Betreffzeile}
+
+\opening{Sehr geehrter Herr Name,}
+
+Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief.
+
+Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief. Ich schreibe Ihnen einen Brief.
+
+\closing{Mit freundlichen Grüßen}
+
+%\ps{PostScriptum. Was auch immer.} %%PostScriptum
+
+%\encl[Anlage(n)]{Text für Anlagen} %%Anlagen
+
+\end{letter}
+
+%% Ende des Briefes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% Beginn des zweiten Briefes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{letter}{Vorname Name...
+%%
+%% Sie können hier einen weiteren Brief beginnen.
+%% Kopieren Sie dazu die Kommandos des ersten Briefes an
+%% diese Stelle und passen Sie diese entsprechend an.
+%%
+%%\end{letter}
+%% Ende des zweiten Briefes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
